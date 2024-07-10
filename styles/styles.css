@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.azeret-mono-normal{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
 
 #banner{
     background-image: url(../assets/Hero-bg.png);
@@ -217,16 +224,29 @@ margin-bottom: 32px;
     font-weight: 700;
     text-decoration-line: underline;
 }
+#skill-css{
+    background: rgba(0, 76, 232, 0.05);
+}
+#skil-jvs{
+    background: rgba(255, 223, 0, 0.05);
+}
 #i-need-support{
     margin: 44px 150px 80px 150px;
     padding: 64px 48px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
-    background-image: url(../assets/handshake.jpg);
+    background-image:border-radius: 16px;
+    background: url(../assets/handshake.jpg);
     border-radius: 16px;
     background-size: cover;
     background-position: center;
 }
+/* .gradiant{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+} */
 #i-need-support h1{
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -235,7 +255,6 @@ margin-bottom: 32px;
 }
 #i-need-support p{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -257,7 +276,7 @@ margin-bottom: 32px;
 }
 #i-need-support .submission{
     margin: 0px 16px;
-    padding: 17px 20px 17px 20px;
+    padding: 17px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: 1px solid white;
