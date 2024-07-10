@@ -155,3 +155,65 @@ margin-bottom: 32px;
 .my-inspiration-video iframe{
     border-radius: 16px;
 }
+#my-next-target{
+    margin: 150px;
+
+    align-items: center;
+    padding: 0px;
+}
+.my-next-target-heading{
+    margin: 0 97px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.my-next-target-heading h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.my-next-target-heading p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+.my-next-target-skill-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.my-next-target-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.my-next-target-skills h1{
+    margin: 24px 0 8px;
+    font-weight: 800;
+    text-align: left;
+}
+.my-next-target-skills p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.my-next-target-skills a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
